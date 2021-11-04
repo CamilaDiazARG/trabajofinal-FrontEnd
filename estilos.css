@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav{
+    background-color: #353a40;
+
+}
+
+#texto{
+    position: absolute;
+    text-align: right;
+    padding-top: 25%;
+    padding-right: 12%;
+    padding-left: 45%;
+    z-index: 1;
+    color: white;
+}
+
+#carousel1{
+    max-width: 100%;
+    
+}
+
+.carousel-item{
+    filter: brightness(60%);
+    width: 100%;
+}
+
+@media only screen and (min-width: 641px) and (max-width: 800px){
+
+    #texto{
+
+        padding-top: 10%;
+        padding-left: 40%;
+        font-size: 15px;
+        }
+    .carousel-item{
+    
+        padding-bottom: 0;
+        }
+
+}
+
+@media only screen and (max-width: 641px){
+
+    #texto{
+        font-size: 15px;
+        padding-top: 20%;
+        padding-left: 12%;
+
+}
+    .carousel-item{
+        width: 1000px;
+        bottom: 0;
+    }
+
+    #texto_oradores{
+        font-size: 1em;
+    }
+}
+
+
+#texto_oradores{
+    font-size: 2em;
+}
+
+#cards_oradores{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3em;
+    padding-right: 3em;
+    
+}
+
+.fs-6{
+    font-size: 0.9em !important; 
+    font-weight:100;
+    padding-right: 10%;
+    
+}
+
+.img-fluid {
+    padding-right: 0.1px;
+}
+
+#bg_card{
+    background-color: #353a40;
+}
+
+.discontinuo {
+    border-bottom: thin dashed;
+}
+
+#button_green{
+    background-color: #81c53d ;
+    padding: 0.4em;
+}
+
+
+#footer_text{
+    background-color:  #224a62;
+    padding: 1em;
+    vertical-align:middle;
+
+}
+
+#links a{
+    color: inherit !important;
+
+}
+
+#button_lime{
+    background-color: #81c53d ;
+    padding: 0.5em;
+}
+
+.cartas{
+    margin: 0.9rem;
+  }
+
+#volver:hover{
+ background-color:  #81c53d;
+ text-decoration: none;
+ color: white;
+}
